@@ -28,11 +28,11 @@ unique emails.
 
 ## Instructions
 
-This lab is test-driven, so run the test suite to get started and use the test output to get the program working. 
+This lab is test-driven, so run the test suite to get started and use the test output to get the program working.
 
 **Hints:**
 
-* How will you control for parsing a list of emails that is *either* comma separated *or* separated by a white space. 
+* How will you control for parsing a list of emails that is *either* comma separated *or* separated by a white space.
 * Use an `attr_accessor` to set and get the list of emails
 
 
