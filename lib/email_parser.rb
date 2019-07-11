@@ -6,12 +6,14 @@ require 'pry'
 
 class EmailParser
 
+  attr_accessor :emails
+
   def initialize(emails)
     @emails = emails
   end
 
   def parse
-    result = @emails.split(/[,\s]/)
+    result = self.emails.split(/[,\s]/)
     result.delete_if {|email| email == " " || email == ""}
     result = result.uniq
   end
