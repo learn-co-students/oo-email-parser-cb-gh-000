@@ -14,7 +14,7 @@ of emails.
 Your job is to parse those email addresses into a useful array using an instance
 method, `parse`.
 
-I should be able to do this:
+I should be ablve to do this:
 
 ```ruby
 email_addresses = "john@doe.com, person@somewhere.org"
